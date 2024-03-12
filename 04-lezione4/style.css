@@ -1,0 +1,16 @@
+#menu {
+    background-color: red;
+    height: 100px;
+    /* posiziona dove dico io */
+    display:flex;
+    /* allinea in orizzontale */
+    justify-content: center;
+    /* allinea in verticale */
+    align-items: center;
+}
+
+button {
+    /* puntatore dito dei link */
+    cursor: pointer;
+}
+

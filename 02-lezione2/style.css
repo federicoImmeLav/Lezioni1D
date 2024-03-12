@@ -1,0 +1,61 @@
+/* Per selezionare i tag basta scrivere il loro nome */
+
+body {
+    /* tolgo i margini al body */
+    margin:0;
+}
+
+header {
+    background-color: gray;
+    height: 80px;
+    /* posizionamento intelligente */
+    display: flex;
+    /* posizionamento orizzontale */
+    justify-content: space-evenly;
+    /* posizionamento verticale */
+    align-items: center;
+    /* posizionamento in alto fisso */
+    position: sticky;
+    top: 0;
+}
+
+/* dimensione dei pulsanti */
+button {
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    /* cambio del cursore*/
+    cursor: pointer;
+}
+
+/* per selezionare un id ho bisogno di mettere il # */
+#intro {
+    background-color: peachpuff;
+    /* alto per 80% dello schermo */
+    height: 90vh;
+    display: flex;
+    /* posizionamento verticale */
+    align-items: center;
+    /* posizionamento orizzontale */
+    justify-content: center;
+}
+
+#paragrafo {
+    background-color: cadetblue;
+    height: 50vh;
+    padding: 20px;
+}
+
+#scatola {
+    width: 100px;
+    height: 50px;
+    /* distanza tra bordo e contenuto */
+    padding: 50px;
+    /* distanza tra bordo e esterno */
+    margin:100px;
+    /* distanza */
+    border: 1px solid black;
+}
+
+

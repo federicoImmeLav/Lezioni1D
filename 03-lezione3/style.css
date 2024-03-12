@@ -1,0 +1,43 @@
+#primaImmagine {
+    height: 60vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondaImmagine {
+    height: 100vh;
+    background-color: blueviolet;
+    /* imposto immagine come sfondo della sezione */
+    background-image: url("./img/intro.webp");
+    /* non ripetere l'immagine */
+    background-repeat: no-repeat;
+    /* immagine che occupa tutto lo spazio a disposizione */
+    background-size: cover;
+
+    /* comandi per centrare gli elementi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
+
+#video {
+    height: 70vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mappa {
+    height: 60vh;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

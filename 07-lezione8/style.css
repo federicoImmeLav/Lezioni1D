@@ -1,0 +1,15 @@
+#quadrato {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#cerchio {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* comando per fare il cerchio */
+    border-radius: 50%;
+    /* margine superiore */
+    margin-top: 20px;
+}

@@ -1,0 +1,67 @@
+#quadrato {
+    /* altezza e larghezza */
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+ 
+/* animazione quando passa sopra il mouse */
+#quadrato:hover {
+    background-color: blue;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+#cerchio {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    /* fissiamo in mezzo */
+    position: absolute;
+    /* distanza da sopra e sinistra */
+    top: 50%;
+    left: 50%;
+    /* correzione per stare in mezzo */
+    transform: translate(-50%,-50%);
+    /* nome e proprietà dell'animazione */
+    animation:oscilla 2s infinite alternate;
+}
+
+/* creazione dell'animazione */
+@keyframes oscilla {
+   from {
+    left:20%; 
+    background-color: red;
+    }
+   to {
+    left:80%; 
+    background-color: green;
+    }
+  }
+
+
+#gabri {
+  height: 100px;
+  width: 200px; 
+  background-color: aqua; 
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  animation: saltella 1s infinite alternate;
+}
+
+@keyframes saltella {
+    from {
+        top:80%;
+        background-color:blue;
+        width: 200px;
+    }
+    to {
+        top:20%;
+        background-color: yellow;
+        width: 500px;
+    }
+}
+
