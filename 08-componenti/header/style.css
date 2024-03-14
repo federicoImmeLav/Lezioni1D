@@ -60,3 +60,13 @@ li {
     list-style-type: none;
 }
 
+/*------------------------------------HEADER RICERCA------------------------------------*/
+
+#headerRicerca {
+    background-color: lightcoral;
+    height: 90px;
+    display: flex;
+    align-items: center; /* Posizionamento verticale */
+    justify-content: space-around; /* Ordino in orizzontale*/
+    padding: 10px; 
+}
