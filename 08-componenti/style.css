@@ -1,0 +1,62 @@
+/*------------------------------------HEADER BASE------------------------------------*/
+/* chiamo id del primo header */
+#headerBase {
+    height: 80px; /*altezza*/
+    background-color: teal; /*colore di sfondo*/
+    display: flex; /*posizionamento intelligente*/
+    justify-content: center; /*posiziono orizzontalmente*/
+    align-items: center; /*posiziono verticalemente*/
+}
+/* Federico Pozzi */
+#logo {
+    height: 50px; /* ridimensiono il logo */
+}
+
+/*------------------------------------HEADER PULSANTI------------------------------------*/
+#headerPulsanti {
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    align-items: center; /*allineo verticalmente*/
+    justify-content: space-between; /*spaziamento orizzontale uniforme*/
+    /* allargo un pochino lo spazio sui bordi della barra */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* le classi si chiamano con il punto */
+.pulsante {
+    /* allargo il pulsante */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* arrotondo gli spigoli */
+    border-radius: 50px;
+}
+
+/*------------------------------------HEADER MENU------------------------------------*/
+
+#headerMenu {
+    height: 100px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    background-color: crimson;
+    margin-top: -20;
+    /* menu scompare all'inizio */
+    display: none;
+}
+/* centrare il testo nell'elenco */
+ul {
+    text-align: center;
+    padding: 0;
+}
+/* togliere i punti nell'elenco */
+li {
+    list-style-type: none;
+}
+
