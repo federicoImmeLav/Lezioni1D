@@ -1,0 +1,37 @@
+/*------------------------------------------SEZIONE FOTO----------------------------------------*/
+#sezioneFoto {
+    height: 100vh; /* vh è la percentuale dello schermo */
+    /* imposto come sfondo una immagine */
+    background-image: url("./img/sfondo.jpg"); /* url metto il percorso della immagine*/
+    /* proprietà per immagini a tutto schermo */
+    background-repeat: no-repeat; /* tolgo la ripetizione */
+    background-size: cover; /* immagine a tutto schermo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titolo {
+    /* per cambiare il colore del testo */
+    color: brown;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+/*------------------------------------------SEZIONE ----------------------------------------*/
+
+#sezioneDueColonne {
+    /* imposto altezza e colore per vedere la sezione */
+    height: 50vh;
+    background-color: cadetblue;
+    padding: 30px; /* spazio intorno alla sezione */
+    /* imposto le proprietà per creare le colonne */
+    display: flex;
+    flex-wrap: wrap; /* metti gli oggetti uno di fianco all'altro */ 
+}
+
+/* imposto la colonna larga la metà della pagina */
+#colonna {
+    flex: 50%;
+}
+
