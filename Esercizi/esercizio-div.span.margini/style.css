@@ -1,0 +1,48 @@
+#evidenzio {
+    /* cambio colore del testo */
+    color: red;
+}
+
+#primoParagrafo {
+    margin: 20px;
+    padding: 10px;
+    /* per vedere differenza tra margin e padding metto il bordo */
+    /* margin è lo spazio fuori dal bordo, il padding è lo spazio dentro al bordo*/
+    border: 1px solid black;
+}
+
+#link {
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#divMargini {
+    /* metto dimensioni e colore per vederlo */
+    width: 50px;
+    height: 30px;
+    background-color: blueviolet;
+    margin: 30px;
+    padding: 10px;
+}
+
+li {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h1 {
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h2 {
+    /*css per il font*/
+    color:red; /* colore del font */
+    font-size: 30px; /*dimensione del font*/
+    font-family: Arial, Helvetica, sans-serif; /*cambiare il font*/
+    font-style: italic; /*corsivo*/
+    font-weight: bold; /*grassetto*/
+}
