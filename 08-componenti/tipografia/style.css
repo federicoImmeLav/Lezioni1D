@@ -1,0 +1,21 @@
+/* chiamo id per cambiare colore */
+#cambioColore {
+    color: red; /*color cambia il colore del testo*/
+    background-color: blue; /*background cambia lo sfondo*/
+}
+
+/* per cambiare dimensioni si usa font-size  */
+#cambioDimensioni {
+    font-size: 30px;
+}
+
+/* per il grassetto la proprietà è font-weight  */
+#testoGrassetto {
+    font-weight: bold;
+}
+
+/* per il corsivo si usa font-style  */
+#testoCorsivo {
+    font-style: italic;
+}
+
