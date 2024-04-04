@@ -50,3 +50,53 @@
         transform: scale(1); /*torno alla dimensione iniziale*/
     }
 }
+
+/*-----------------------------------CSS animazione rotazione-----------------------------------*/
+#quadratoRuota {
+    /* impostare larghezza e altezza  */
+    width: 100px;
+    height: 100px;
+    /* imposto il colore del quadrato */
+    background-color: red;
+}
+
+#quadratoRuota:hover {
+    /* aggiungo rotazione di qualche grado  */
+    transform: rotate(10deg);
+    /* trasformazione di rotazione di 10 gradi  */
+    /* per farlo fluido aggiungo il tempo di animazione */
+    transition: 1s;
+}
+
+
+/*-----------------------------------CSS animazione bordo-----------------------------------*/
+#quadratoBordo {
+    /* impostare larghezza e altezza  */
+    width: 90px;
+    height: 90px;
+    /* imposto il colore del quadrato */
+    background-color: red;
+    border: 5px solid red;
+}
+
+/* animazione che cambia il colore e il bordo */
+#quadratoBordo:hover {
+    /* tolgo il colore di sfondo */
+    background-color: transparent;
+    /* aggiungo il bordo  */
+    border: 5px solid red;
+    transition: 0.5s;
+}
+
+/*-----------------------------------CSS animazione caricamento-----------------------------------*/
+/* faccio il cerchio più piccolo da animare  */
+#cerchioCaricamento {
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    /* per fare il cerchio si usa border radius  */
+    border-radius: 50%;
+}
+
+/* Creo l'animazione del cerchio che oscilla  */
+
