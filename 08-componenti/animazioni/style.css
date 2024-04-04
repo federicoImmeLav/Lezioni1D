@@ -1,0 +1,52 @@
+/*-----------------------------------CSS cambio colore-----------------------------------*/
+
+#quadratoColore {
+    /* impostare larghezza e altezza  */
+    width: 100px;
+    height: 100px;
+    /* imposto il colore del quadrato */
+    background-color: red;
+}
+
+/* riscrivo la classe e aggiungo il comando dell hover  */
+#quadratoColore:hover {
+    /* qui posso scrivere quello che deve 
+    succedere quando passo con il mouse */
+    background-color: blueviolet;
+}
+
+
+/*-----------------------------------CSS animazione pulsa-----------------------------------*/
+#quadratoPulsa {
+    /* impostare larghezza e altezza  */
+    width: 100px;
+    height: 100px;
+    /* imposto il colore del quadrato */
+    background-color: red; 
+}
+
+/* per applicare l'animazione devo chiamarla nel css  */
+#quadratoPulsa:hover {
+    /* chiamo l'animazione  */
+    animation: pulsa 1s linear infinite alternate;
+    /* nome animazione, lineare, che funziona all'infinito in modo alternato */
+}
+
+/* devo creare una animazione personalizzata  */
+/* per crearla si usa keyframes  */
+@keyframes pulsa {
+    /* qui vado a scrivere i vari punti nel tempo */
+    0% {
+        /*non cambia dimensioni al momento iniziale*/
+        transform: scale(1); 
+    }
+
+    50% {
+        /* rimpicciolisco del 70%  */
+        transform: scale(0.7);  
+    }
+
+    100% {
+        transform: scale(1); /*torno alla dimensione iniziale*/
+    }
+}
