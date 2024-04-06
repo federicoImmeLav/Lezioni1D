@@ -96,7 +96,50 @@
     background-color: aqua;
     /* per fare il cerchio si usa border radius  */
     border-radius: 50%;
+    animation: oscilla 2s ease infinite;
+    /* ease fa che accelera e rallenta */
 }
 
 /* Creo l'animazione del cerchio che oscilla  */
 
+@keyframes oscilla {
+    /* traslo in orizzontale */
+    0% {transform: translateX(0);}
+    50% {transform: translateX(100px);}
+    100% {transform: translateX(0);}
+}
+
+
+/*-----------------------------------CSS animazioni combinate-----------------------------------*/
+
+#formaCombinate {
+     /* impostare larghezza e altezza  */
+     width: 100px;
+     height: 100px;
+     /* imposto il colore del quadrato */
+     background-color: red;
+     animation: animazioneCombinata 2s ease infinite;
+}
+
+@keyframes animazioneCombinata {
+    /* inserisco 5 keyframes nei quali inserirò le proprietà  */
+    /* che mi servono */
+    /* posso inserire più di una proprietà per keyframe  */
+    0%{
+        background-color: red;
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(0.5);
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        transform: scale(1.5);
+    }
+    100%{
+        background-color: red;
+        transform: scale(1);
+    }
+    }
