@@ -1,0 +1,50 @@
+header {
+    /*proprietà per disporre in orizzontale gli elementi*/
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    margin-top: 30px;
+}
+
+body {
+    font-family: sans-serif; /*metto il font più simile all'esempio*/
+}
+
+#download {
+    background-color: black; /*colore di sfondo*/
+    color: white; /*colore della scritta*/
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 13px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /*centro il testo in orizzontale*/
+    height: 80vh;
+}
+
+#testoImmagine {
+    display: flex;
+    height: 70vh;
+    margin: 100px;
+}
+
+#testoSx {
+    width: 60%;
+}
+
+#immagineDx {
+    width: 40%;
+}
+
+#sezioneSotto {
+    display: flex;
+}
+#info {
+    width: 50%;
+}
